@@ -2,4 +2,11 @@
     <string name="app_name">Business Card</string>
     <string name="label_business_card">Cartão de Visita</string>
     <string name="contentdesc_add_business_card">Add business card</string>
+    <string name="label_new_card">New Card</string>
+    <string name="label_name">Name</string>
+    <string name="labe_phone">Phone</string>
+    <string name="label_email">Email</string>
+    <string name="label_enterprise">Enterprise</string>
+    <string name="label_color">Color</string>
+    <string name="label_confirm">Confirm</string>
 </resources>
