@@ -1,4 +1,4 @@
-package com.araujo.businesscard
+package com.araujo.businesscard.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,6 +12,16 @@ class AddBusinessCardActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        insertListener()
 
+    }
+
+    private fun insertListener(){
+        binding.btnClose.setOnClickListener {
+            finish()
+        }
+        binding.btnConfirm.setOnClickListener {
+
+        }
     }
 }
