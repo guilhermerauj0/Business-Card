@@ -32,7 +32,7 @@ class BusinessCardAdapter : ListAdapter<BusinessCard, BusinessCardAdapter.ViewHo
                 binding.tvEnterprise.text = item.enterprise
                 binding.mcvContent.setBackgroundColor(Color.parseColor(item.background))
                 binding.mcvContent.setOnClickListener {
-                    listenerShare
+                    listenerShare(it)
                 }
             }
         }
