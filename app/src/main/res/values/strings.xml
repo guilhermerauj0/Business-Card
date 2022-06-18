@@ -9,4 +9,5 @@
     <string name="label_enterprise">Enterprise</string>
     <string name="label_color">Color</string>
     <string name="label_confirm">Confirm</string>
+    <string name="label_show_success">Add card success</string>
 </resources>
